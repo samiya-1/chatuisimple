@@ -185,7 +185,10 @@ class _MessageChatsState extends State<MessageChats> {
           FloatingActionButtonLocation.miniCenterDocked,
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Icon(Icons.mic),
+        child: Icon(
+          Icons.mic,
+          color: Colors.lightBlue,
+        ),
       ),
     );
   }
